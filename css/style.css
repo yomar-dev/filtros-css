@@ -95,3 +95,16 @@ img.saturate{
 img.sepia{
 	filter: sepia(90%);
 }
+
+.footer{
+	background: #333;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}
