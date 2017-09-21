@@ -8,5 +8,10 @@ body{
 }
 
 h1{
+	background: #333;
+	color: #fff;
+	font-size: 3em;	
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: .4em 0em;
 }
