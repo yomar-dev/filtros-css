@@ -14,4 +14,47 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	padding: .4em 0em;
+	margin-bottom: 1em;
+}
+
+h2{
+	color: #fff;
+	background: #333;
+	padding: .3em .3em;
+}
+
+.contenedor{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.imagen-original{
+	width: 500px;
+	height: 400px;
+	margin-bottom: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.imagen-original img{
+	width: 100%;
+}
+
+
+.imagenes{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 960px;	
+}
+
+.imagen{
+	width: 45%;
+	margin-bottom: 1.5em;
+}
+
+img{
+	width: 100%;
 }
